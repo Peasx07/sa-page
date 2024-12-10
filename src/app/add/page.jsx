@@ -28,11 +28,11 @@ export default function Add() {
   
 
   return (
-    <div className="flex min-h-screen font-extralight">
+    <div className="font-black flex min-h-screen">
       {/* ข้างๆซ้าย */}
       <header className="fixed top-0 left-0 w-64 h-full bg-white shadow-md p-6 flex flex-col items-start z-20">
         <img src="/sa.jpg" alt="School Logo" className="w-300 h-200 mb-4" />
-        <h1 className="text-lg font-semibold text-center w-full">
+        <h1 className="text-black text-lg font-semibold text-center w-full">
           ระบบจัดเก็บข้อมูล<br />โรงเรียนสตรีอ่างทอง
         </h1>
 
