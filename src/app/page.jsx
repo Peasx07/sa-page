@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Home() {
   
   return (
-    <div className="flex min-h-screen font-black">
+    <div className="flex min-h-screen text-black">
     {/* ข้างๆซ้าย */}
           <header className="fixed top-0 left-0 w-64 h-full bg-white shadow-md p-6 flex flex-col items-start z-20">
         <img src="/sa.jpg" alt="School Logo" className="w-300 h-200 mb-4" />
